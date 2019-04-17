@@ -2,6 +2,7 @@ import {NgModule} from '@angular/core';
 import {RouterModule, Routes} from '@angular/router';
 import {AppshellComponent} from './appshell/appshell.component';
 import {Example} from './dashboard/example/example';
+import {NgbdTableBasic} from './dashboard/table/table-basic.page';
 
 const routes : Routes = [
 {
@@ -14,7 +15,8 @@ const routes : Routes = [
     component: AppshellComponent,
     children:[
       {path: '', pathMatch:'full', redirectTo: 'dashboard'},
-      {path: 'dashboard', component: Example}
+      {path: 'dashboard', component: Example},
+      {path: 'table-basic', component: NgbdTableBasic},
     ]
   }]
 
