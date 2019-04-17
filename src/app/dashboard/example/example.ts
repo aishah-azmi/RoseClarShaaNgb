@@ -1,7 +1,7 @@
 import {Component} from '@angular/core';
 
 @Component({
-  selector: 'trg-appshell',
+  selector: 'trg-example',
   templateUrl:'./example.html',
   styleUrls: ['./example.scss'],
 })
