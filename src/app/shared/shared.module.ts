@@ -1,13 +1,15 @@
 import {NgModule} from '@angular/core';
 import {BrowserModule} from '@angular/platform-browser';
-import {NgbAlertModule, NgbPaginationModule} from '@ng-bootstrap/ng-bootstrap';
+import {NgbAccordionModule, NgbAlertModule, NgbPaginationModule} from '@ng-bootstrap/ng-bootstrap';
+import {Accordion} from '../dashboard/accordion/accordion';
 
 export const BOOTSTRAP_MODULE = [
   NgbPaginationModule,
-  NgbAlertModule,];
+  NgbAlertModule,
+  NgbAccordionModule
+];
 @NgModule({
-  declarations: [
-  ],
+  declarations: [],
   imports: [
     BOOTSTRAP_MODULE,
   ],
